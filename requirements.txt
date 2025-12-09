@@ -1,0 +1,24 @@
+streamlit==1.31.0
+
+# TensorFlow + Keras
+tensorflow==2.15.0
+keras==2.15.0
+
+# Matching versions
+numpy==1.26.4
+pillow==10.3.0
+
+# Image processing
+opencv-python-headless==4.10.0.84
+
+# Optional (but safe)
+gdown==4.8.0
+
+# For Streamlit logs (MUST be < 14)
+rich==13.7.1
+pygments==2.19.2
+markdown-it-py==4.0.0
+mdurl==0.1.2
+
+# NEW for Gradio (does not break Streamlit)
+gradio==4.44.0
